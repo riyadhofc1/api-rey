@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "CommonJS",
+        "esModuleInterop": true,
+        "declaration": true,
+        "allowJs": true,
+        "jsx": "react",
+        "outDir": "dist",
+        "declarationDir": "dist/declarations"
+    },
+    "exclude": [
+        "node_modules",
+        "client"
+    ],
+    "include": [
+        "api/**/*.ts"
+    ]
+}
