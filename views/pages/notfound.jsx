@@ -8,11 +8,9 @@ function Head() {
   );
 }
 
-function Main() {
+function Root() {
   return (
-    <main>
-      <h1>What are you doing in here?</h1>
-    </main>
+    <h1>Example Not found</h1>
   );
 }
 
@@ -20,7 +18,7 @@ export default function Render() {
   return (
     <React.StrictMode>
       <Head></Head>
-      <Main></Main>
+      <Root></Root>
     </React.StrictMode>
   );
 }
